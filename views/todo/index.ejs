@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>TODOアプリ</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>TODOアプリ</h1>
+  <p id="error" style="color: red;"></p>
+  <form id="todo-form">
+    <input id="todo-title" type="text" placeholder="TODOを入力してください" maxlength="200" required>
+    <button type="submit">登録</button>
+  </form>
+  <p id="empty-message" hidden>TODOがありません</p>
+  <ul id="todo-list"></ul>
+  <script src="/todo/todo.js"></script>
+</body>
+</html>
