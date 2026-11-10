@@ -1,1 +1,1 @@
-{"compilerOptions":{"esModuleInterop":true,"module":"commonjs","outDir":"./dist","skipLibCheck":true,"strict":true,"target":"ES2022"},"include":["index.ts"]}
+{"compilerOptions":{"esModuleInterop":true,"module":"commonjs","outDir":"./dist","skipLibCheck":true,"strict":true,"target":"ES2022"},"include":["index.ts","db.ts","src/**/*.ts"]}
